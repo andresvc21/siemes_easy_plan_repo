@@ -1,0 +1,15 @@
+# Forum-specific scraping configuration
+forums:
+  siemens_community:
+    base_url: "https://community.sw.siemens.com"
+    topics:
+      - "teamcenter"
+      - "easy-plan"
+      - "configuration"
+    max_pages: 50
+    delay: 1.0
+
+  # Add other forums as needed
+  # plm_world:
+  #   base_url: "https://plmworld.com"
+  #   sections: ["teamcenter", "configuration"]

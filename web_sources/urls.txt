@@ -1,0 +1,5 @@
+# Specific URLs to scrape for Teamcenter Easy Plan content
+# Add forum posts, documentation pages, and tutorial URLs here
+# Example:
+# https://community.sw.siemens.com/s/topic/teamcenter-easy-plan
+# https://docs.plm.automation.siemens.com/teamcenter/easy-plan

@@ -1,0 +1,33 @@
+# Model comparison experiments
+experiments:
+  model_comparison_v1:
+    name: "Primary Model Comparison"
+    models:
+      - "claude-sonnet-4-20250514"
+      - "gpt-4"
+      - "gemini-pro"
+    test_questions: "tests/test_questions.txt"
+    evaluation_metrics:
+      - "relevance"
+      - "accuracy"
+      - "completeness"
+      - "source_attribution"
+      - "response_time"
+      - "cost_efficiency"
+    web_content_enabled: true
+    max_tokens: 1000
+    temperature: 0.1
+
+  retrieval_comparison:
+    name: "Retrieval Strategy Comparison"
+    model: "claude-sonnet-4-20250514"
+    retrieval_configs:
+      docs_only:
+        web_content_enabled: false
+        top_k: 5
+      balanced:
+        web_content_weight: 0.5
+        top_k: 8
+      web_heavy:
+        web_content_weight: 0.8
+        top_k: 10

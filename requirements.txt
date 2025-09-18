@@ -1,0 +1,66 @@
+# Core AI and RAG Framework
+langchain>=0.1.0
+langchain-community>=0.0.20
+langchain-anthropic>=0.1.0
+anthropic>=0.18.0
+
+# Vector Database and Embeddings
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+
+# Document Processing
+PyPDF2>=3.0.1
+python-docx>=0.8.11
+python-pptx>=0.6.21
+openpyxl>=3.1.2
+markdown>=3.5.1
+unstructured>=0.10.0
+
+# Web Scraping
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+selenium>=4.15.0
+lxml>=4.9.3
+html2text>=2020.1.16
+
+# Experiment Tracking and Evaluation
+langfuse>=2.0.0
+
+# CLI and User Interface
+click>=8.1.7
+rich>=13.7.0
+tqdm>=4.66.0
+
+# Data Processing and Utilities
+pandas>=2.1.0
+numpy>=1.24.0
+pydantic>=2.4.0
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+
+# Optional: Alternative LLM Providers
+openai>=1.0.0
+google-generativeai>=0.3.0
+
+# Development and Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+black>=23.7.0
+flake8>=6.0.0
+mypy>=1.5.0
+
+# Logging and Monitoring
+structlog>=23.1.0
+colorama>=0.4.6
+
+# File and Path Management
+pathlib2>=2.3.7
+chardet>=5.2.0
+
+# Async Support
+aiohttp>=3.8.0
+asyncio>=3.4.3
+
+# Optional: Database Support (for future enhancements)
+sqlalchemy>=2.0.0
+alembic>=1.12.0

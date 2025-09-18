@@ -1,0 +1,43 @@
+{
+  "evaluation_sets": {
+    "basic_configuration": {
+      "description": "Basic Teamcenter Easy Plan configuration questions",
+      "questions": [
+        {
+          "id": "config_001",
+          "question": "How do I set up user roles for engineers in Teamcenter Easy Plan?",
+          "expected_topics": ["user management", "role configuration", "permissions"],
+          "difficulty": "basic"
+        },
+        {
+          "id": "config_002",
+          "question": "What are the steps to configure a new workflow in Easy Plan?",
+          "expected_topics": ["workflow setup", "process configuration"],
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "troubleshooting": {
+      "description": "Common troubleshooting scenarios",
+      "questions": [
+        {
+          "id": "trouble_001",
+          "question": "Why can't users see their assigned tasks in Easy Plan?",
+          "expected_topics": ["permissions", "task visibility", "user roles"],
+          "difficulty": "intermediate"
+        }
+      ]
+    },
+    "advanced_configuration": {
+      "description": "Complex configuration scenarios",
+      "questions": [
+        {
+          "id": "advanced_001",
+          "question": "How do I integrate Easy Plan with external scheduling systems?",
+          "expected_topics": ["integration", "API", "external systems"],
+          "difficulty": "advanced"
+        }
+      ]
+    }
+  }
+}

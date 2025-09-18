@@ -1,0 +1,37 @@
+# Test Questions for Teamcenter Easy Plan AI Agent
+# These questions will be used for evaluation and testing
+
+## Basic Configuration
+1. How do I set up user roles for engineers in Teamcenter Easy Plan?
+2. What are the steps to configure a new workflow in Easy Plan?
+3. How do I create a new project template?
+4. What permissions are needed for project managers?
+5. How do I configure notification settings?
+
+## User Management
+6. How do I add new users to the system?
+7. What are the different user role types available?
+8. How do I assign users to specific projects?
+9. How do I manage user access to different modules?
+10. What is the process for deactivating user accounts?
+
+## Workflow and Process Configuration
+11. How do I set up approval workflows?
+12. What are the steps to configure task dependencies?
+13. How do I create custom workflow templates?
+14. How do I configure automatic task assignments?
+15. What is the process for setting up milestone tracking?
+
+## Troubleshooting
+16. Why can't users see their assigned tasks?
+17. How do I resolve login issues for users?
+18. What should I do if workflows are not triggering properly?
+19. How do I fix permission-related errors?
+20. What steps should I take if data synchronization fails?
+
+## Advanced Configuration
+21. How do I integrate Easy Plan with external scheduling systems?
+22. What are the options for customizing the user interface?
+23. How do I set up automated reporting?
+24. What is the process for configuring data import/export?
+25. How do I implement custom business rules?

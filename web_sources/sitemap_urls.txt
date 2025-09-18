@@ -1,0 +1,3 @@
+# Sites to crawl fully via sitemap
+# https://docs.plm.automation.siemens.com/sitemap.xml
+# https://community.sw.siemens.com/sitemap.xml
